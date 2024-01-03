@@ -5,10 +5,16 @@ This file contains all the notable changes done to the Ballerina HTTP package th
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to 
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [2.10.5] - 2023-12-06
+
+### Fixed
+- [Fix `IndexOutOfBoundsException` when decoding jwt header](https://github.com/ballerina-platform/ballerina-library/issues/5856)
+
+## [2.10.4] - 2023-11-17
 
 ### Fixed
 - [Fix URL encoded form data binding with encoded `&` and `=` characters](https://github.com/ballerina-platform/ballerina-standard-library/issues/5068)
+- [Fix client not honouring server-initiated connection closures](https://github.com/ballerina-platform/ballerina-library/issues/5793)
 
 ### Changed
 - [Make some of the Java classes proper utility classes](https://github.com/ballerina-platform/ballerina-standard-library/issues/4923)
