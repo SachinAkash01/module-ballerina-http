@@ -171,9 +171,3 @@ groupId = "com.google.protobufl"
 artifactId = "protobuf-java"
 version = "3.25.5"
 path = "./lib/protobuf-java-3.25.5.jar"
-
-[[dependency]]
-org = "ballerinax"
-name = "data.jsondata"
-version = "0.3.0"
-repository = "local"
