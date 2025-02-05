@@ -18,7 +18,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - [Add static code rules](https://github.com/ballerina-platform/ballerina-library/issues/7283)
 - [Add relax data binding support for service and client data binding](https://github.com/ballerina-platform/ballerina-library/issues/7366)
 - [Add support for configuring server name to be used in the SSL SNI extension](https://github.com/ballerina-platform/ballerina-library/issues/7435)
-- [Add default HTTP listener](https://github.com/ballerina-platform/ballerina-library/issues/7514)
 
 ### Fixed
 
@@ -36,6 +35,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - [Add connection eviction feature to handle connections that receive GO_AWAY from the client](https://github.com/ballerina-platform/ballerina-library/issues/6734)
 - [Enhance the configurability of Ballerina access logging by introducing multiple configuration options.](https://github.com/ballerina-platform/ballerina-library/issues/6111)
 - [Introduce HTTP service contract object type](https://github.com/ballerina-platform/ballerina-library/issues/6378)
+- [Add default HTTP listener](https://github.com/ballerina-platform/ballerina-library/issues/7514)
 
 ### Fixed
 
