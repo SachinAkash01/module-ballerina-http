@@ -5,11 +5,23 @@ This file contains all the notable changes done to the Ballerina HTTP package th
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to 
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [2.14.0] - 2025-03-12
 
 ### Changed
 
 - [Move SSL context creation to the client initialization](https://github.com/ballerina-platform/ballerina-library/issues/1798)
+- [Update netty tcnative version](https://github.com/ballerina-platform/ballerina-library/issues/7650)
+- [Supporting X25519MLKEM768 key encapsulation for TLS 1.3](https://github.com/ballerina-platform/ballerina-library/issues/7650)
+- [Update bouncy castle version to `1.80`](https://github.com/ballerina-platform/ballerina-library/issues/7683)
+
+### Fixed
+
+- [Add TLSv1.3 supported cipher suites to the default configuration](https://github.com/ballerina-platform/ballerina-library/issues/7658)
+
+### Added
+
+- [Add an API to convert response object to status response record](https://github.com/ballerina-platform/ballerina-library/issues/7667)
+- [Add default HTTP listener](https://github.com/ballerina-platform/ballerina-library/issues/7514)
 
 ## [2.13.3] - 2025-02-20
 
@@ -42,7 +54,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - [Add static code rules](https://github.com/ballerina-platform/ballerina-library/issues/7283)
 - [Add relax data binding support for service and client data binding](https://github.com/ballerina-platform/ballerina-library/issues/7366)
 - [Add support for configuring server name to be used in the SSL SNI extension](https://github.com/ballerina-platform/ballerina-library/issues/7435)
-- [Add default HTTP listener](https://github.com/ballerina-platform/ballerina-library/issues/7514)
 
 ### Fixed
 
